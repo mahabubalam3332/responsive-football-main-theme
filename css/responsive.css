@@ -1,0 +1,33 @@
+@meadia screen and (max-width:600px){
+    .content_inner {
+        grid-template-columns:repeat(2,1fr)
+    }
+    
+    
+    .list_inner {
+        grid-template-columns: repeat(2,1fr);
+    }
+    .hightlight_inner {
+        grid-template-columns: repeat(1,1fr);
+        grid-column-gap: 30px;
+    }
+}
+/* player_lists */
+.list_inner {
+    margin-left: 180px;
+    margin-right: 210px;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+}
+.content_inner {
+    background: var(--bg-color);
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/* highlight_inner */
